@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Diego Chuquimia - Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: resume.qmd
+        text: My Resume
+      - text: Projects
+        menu:
+          - href: r-projects.qmd
+            text: R Projects
+          - href: sql-projects.qmd
+            text: SQL Projects
+          - href: python-projects.qmd
+            text: Python Projects
+          - href: powerbi-projects.qmd
+            text: Power BI Projects
+          - href: excel-projects.qmd
+            text: Excel Projects
+
+format:
+  html:
+    theme: cosmo
+    toc: true
