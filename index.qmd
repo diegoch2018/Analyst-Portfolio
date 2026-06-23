@@ -1,0 +1,19 @@
+---
+title: "Diego Chuquimia"
+---
+
+## Data Analytics Portfolio
+
+Welcome to my portfolio. I am an Economics student with experience in R, SQL, Python, Power BI, and Excel.
+
+## About Me
+
+I am interested in financial analysis, business analytics, and data visualization.
+
+## Featured Projects
+
+- R: Apartment Price Analysis
+- SQL: Airbnb Profitability Analysis
+- Python: Student Housing Recommender
+- Power BI: Financial Dashboard
+- Excel: Budget vs Actual Report
