@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Diego Chuquimia - Data Science Portfolio",
+    "title": "Diego Chuquimia | Economics minor in Data Science Portfolio",
     "section": "",
-    "text": "title: “Diego Chuquimia | Economics minor in Data Science Portfolio” subtitle: “Using R, SQL, Python, Power BI, and Excel to analyze data and build business insights” —",
+    "text": "Use the top menu to navigate to my resume, project sections, and specific work samples. Each section highlights projects created with different tools, including R, SQL, Python, Power BI, and Excel.",
     "crumbs": [
       "Home"
     ]
@@ -12,9 +12,9 @@
   {
     "objectID": "index.html#how-to-navigate-this-portfolio",
     "href": "index.html#how-to-navigate-this-portfolio",
-    "title": "Diego Chuquimia - Data Science Portfolio",
-    "section": "How to navigate this portfolio?",
-    "text": "How to navigate this portfolio?\nUse the top menu to navigate to my resume, project sections, and specific work samples. Each section highlights projects created with different tools, including R, SQL, Python, Power BI, and Excel.",
+    "title": "Diego Chuquimia | Economics minor in Data Science Portfolio",
+    "section": "",
+    "text": "Use the top menu to navigate to my resume, project sections, and specific work samples. Each section highlights projects created with different tools, including R, SQL, Python, Power BI, and Excel.",
     "crumbs": [
       "Home"
     ]
@@ -22,7 +22,7 @@
   {
     "objectID": "index.html#my-resume",
     "href": "index.html#my-resume",
-    "title": "Diego Chuquimia - Data Science Portfolio",
+    "title": "Diego Chuquimia | Economics minor in Data Science Portfolio",
     "section": "My Resume",
     "text": "My Resume\nThis section contains my education, experience, technical skills, and professional background.",
     "crumbs": [
@@ -32,7 +32,7 @@
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
-    "title": "Diego Chuquimia - Data Science Portfolio",
+    "title": "Diego Chuquimia | Economics minor in Data Science Portfolio",
     "section": "Projects",
     "text": "Projects\nThis section gives an overview of my data analytics, finance, and business intelligence projects.",
     "crumbs": [
@@ -42,7 +42,7 @@
   {
     "objectID": "index.html#project-areas",
     "href": "index.html#project-areas",
-    "title": "Diego Chuquimia - Data Science Portfolio",
+    "title": "Diego Chuquimia | Economics minor in Data Science Portfolio",
     "section": "Project Areas",
     "text": "Project Areas\n\nR Projects\nProjects using R, tidyverse, ggplot2, Quarto, maps, and statistical analysis.\n\n\nSQL Projects\nProjects using SQL to clean, summarize, and analyze business and financial data.\n\n\nPython Projects\nProjects using Python, pandas, NumPy, and data analysis workflows.\n\n\nPower BI Projects\nDashboards and reports built with Power BI.\n\n\nExcel Projects\nExcel projects using formulas, PivotTables, dashboards, and financial reports.",
     "crumbs": [

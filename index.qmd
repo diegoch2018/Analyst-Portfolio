@@ -1,5 +1,4 @@
 ---
-
 title: "Diego Chuquimia | Economics minor in Data Science Portfolio"
 subtitle: "Using R, SQL, Python, Power BI, and Excel to analyze data and build business insights"
 ---
