@@ -1,6 +1,16 @@
-project: 
+project:
+  render:
+    - "*.qmd"
+    - "!/Templates"
+    - "!/Data"
+    - "!/Images"
+    - "!/Projects/Archive"
   type: website
   output-dir: docs
+
+resources:
+  - Data/**
+  - Documents/**
 
 website:
   title: "Diego Chuquimia - Data Science Portfolio"
@@ -15,6 +25,8 @@ website:
     border: true
     left: "Diego Chuquimia 2026©"
     right: 
+      - icon: github
+        href: https://github.com/chuquimiadiego
       - icon: linkedin
         href: https://www.linkedin.com/in/diegoach
 
@@ -28,29 +40,99 @@ website:
         file: resume.qmd
       - text: "Projects"
         file: projects.qmd
+      - text: "R"
+        menu:
+          - text: "Apartment Price Analysis"
+            file: Projects/R/apartment_price_analysis.qmd
+          - text: "U.S. Cities Map"
+            file: Projects/R/us_cities_map.qmd
+          - text: "Idaho Water Map"
+            file: Projects/R/idaho_water_map.qmd
+      - text: "SQL"
+        menu:
+          - text: "Airbnb Profitability Analysis"
+            file: Projects/SQL/airbnb_profitability.qmd
+          - text: "Neighborhood Revenue Analysis"
+            file: Projects/SQL/neighborhood_revenue.qmd
+      - text: "Python"
+        menu:
+          - text: "Student Housing Recommender"
+            file: Projects/Python/student_housing_recommender.qmd
+          - text: "Sales Forecasting"
+            file: Projects/Python/sales_forecasting.qmd
+      - text: "Power BI"
+        menu:
+          - text: "Financial Dashboard"
+            file: Projects/PowerBI/financial_dashboard.qmd
+          - text: "Survey Dashboard"
+            file: Projects/PowerBI/survey_dashboard.qmd
+      - text: "Excel"
+        menu:
+          - text: "Budget vs Actual Report"
+            file: Projects/Excel/budget_vs_actual.qmd
+          - text: "Sales Summary Dashboard"
+            file: Projects/Excel/sales_summary.qmd
 
   sidebar:
-    - title: "Portfolio Projects"
-      style: "docked"
-      background: light
+    - title: "Portfolio"
       contents:
+        - text: "Home"
+          file: index.qmd
+        - text: "---"
+        - text: "My Resume"
+          file: resume.qmd
+        - text: "---"
         - text: "Projects Overview"
           file: projects.qmd
         - text: "---"
-        - text: "R Projects"
-          file: Projects/r-projects.qmd
+
+    - title: "R Projects"
+      contents:
+        - text: "Apartment Price Analysis"
+          file: Projects/R/apartment_price_analysis.qmd
         - text: "---"
-        - text: "SQL Projects"
-          file: Projects/sql-projects.qmd
+        - text: "U.S. Cities Map"
+          file: Projects/R/us_cities_map.qmd
         - text: "---"
-        - text: "Python Projects"
-          file: Projects/python-projects.qmd
+        - text: "Idaho Water Map"
+          file: Projects/R/idaho_water_map.qmd
         - text: "---"
-        - text: "Power BI Projects"
-          file: Projects/powerbi-projects.qmd
+
+    - title: "SQL Projects"
+      contents:
+        - text: "Airbnb Profitability Analysis"
+          file: Projects/SQL/airbnb_profitability.qmd
         - text: "---"
-        - text: "Excel Projects"
-          file: Projects/excel-projects.qmd
+        - text: "Neighborhood Revenue Analysis"
+          file: Projects/SQL/neighborhood_revenue.qmd
+        - text: "---"
+
+    - title: "Python Projects"
+      contents:
+        - text: "Student Housing Recommender"
+          file: Projects/Python/student_housing_recommender.qmd
+        - text: "---"
+        - text: "Sales Forecasting"
+          file: Projects/Python/sales_forecasting.qmd
+        - text: "---"
+
+    - title: "Power BI Projects"
+      contents:
+        - text: "Financial Dashboard"
+          file: Projects/PowerBI/financial_dashboard.qmd
+        - text: "---"
+        - text: "Survey Dashboard"
+          file: Projects/PowerBI/survey_dashboard.qmd
+        - text: "---"
+
+    - title: "Excel Projects"
+      contents:
+        - text: "Budget vs Actual Report"
+          file: Projects/Excel/budget_vs_actual.qmd
+        - text: "---"
+        - text: "Sales Summary Dashboard"
+          file: Projects/Excel/sales_summary.qmd
+        - text: "---"
 
 format:  
   html:
