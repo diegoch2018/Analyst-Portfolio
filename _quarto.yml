@@ -1,31 +1,143 @@
 project:
+  render:
+    - "*.qmd"
+    - "!/Templates"
+    - "!/Data"
+    - "!/Images"
+    - "!/Projects/Archive"
   type: website
   output-dir: docs
 
-website:
-  title: "Diego Chuquimia Portfolio"
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - href: index.qmd
-        text: Home
-      - href: resume.qmd
-        text: My Resume
-      - section: "Projects"
-        contents:
-          - href: r-projects.qmd
-            text: R Projects
-          - href: sql-projects.qmd
-            text: SQL Projects
-          - href: python-projects.qmd
-            text: Python Projects
-          - href: powerbi-projects.qmd
-            text: Power BI Projects
-          - href: excel-projects.qmd
-            text: Excel Projects
+resources:
+  - Data/**
+  - Documents/**
 
-format:
+website:
+  title: "Diego Chuquimia - Data Science Portfolio"
+  favicon: Images/favicon.png
+  back-to-top-navigation: true
+  site-url: https://chuquimiadiego.github.io/
+  repo-url: https://github.com/chuquimiadiego/chuquimiadiego.github.io
+  issue-url: https://github.com/chuquimiadiego/chuquimiadiego.github.io/issues/new
+  repo-actions: [issue]
+
+  page-footer: 
+    border: true
+    left: "Diego Chuquimia 2026©"
+    right: 
+      - icon: github
+        href: https://github.com/chuquimiadiego
+      - icon: linkedin
+        href: https://www.linkedin.com/in/diegoach
+
+  navbar:
+    background: primary
+    search: true   
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "My Resume"
+        file: resume.qmd
+      - text: "Projects"
+        file: projects.qmd
+      - text: "R"
+        menu:
+          - text: "Apartment Price Analysis"
+            file: Projects/R/apartment_price_analysis.qmd
+          - text: "U.S. Cities Map"
+            file: Projects/R/us_cities_map.qmd
+          - text: "Idaho Water Map"
+            file: Projects/R/idaho_water_map.qmd
+      - text: "SQL"
+        menu:
+          - text: "Airbnb Profitability Analysis"
+            file: Projects/SQL/airbnb_profitability.qmd
+          - text: "Neighborhood Revenue Analysis"
+            file: Projects/SQL/neighborhood_revenue.qmd
+      - text: "Python"
+        menu:
+          - text: "Student Housing Recommender"
+            file: Projects/Python/student_housing_recommender.qmd
+          - text: "Sales Forecasting"
+            file: Projects/Python/sales_forecasting.qmd
+      - text: "Power BI"
+        menu:
+          - text: "Financial Dashboard"
+            file: Projects/PowerBI/financial_dashboard.qmd
+          - text: "Survey Dashboard"
+            file: Projects/PowerBI/survey_dashboard.qmd
+      - text: "Excel"
+        menu:
+          - text: "Budget vs Actual Report"
+            file: Projects/Excel/budget_vs_actual.qmd
+          - text: "Sales Summary Dashboard"
+            file: Projects/Excel/sales_summary.qmd
+
+  sidebar:
+    - title: "Portfolio"
+      contents:
+        - text: "Home"
+          file: index.qmd
+        - text: "---"
+        - text: "My Resume"
+          file: resume.qmd
+        - text: "---"
+        - text: "Projects Overview"
+          file: projects.qmd
+        - text: "---"
+
+    - title: "R Projects"
+      contents:
+        - text: "Apartment Price Analysis"
+          file: Projects/R/apartment_price_analysis.qmd
+        - text: "---"
+        - text: "U.S. Cities Map"
+          file: Projects/R/us_cities_map.qmd
+        - text: "---"
+        - text: "Idaho Water Map"
+          file: Projects/R/idaho_water_map.qmd
+        - text: "---"
+
+    - title: "SQL Projects"
+      contents:
+        - text: "Airbnb Profitability Analysis"
+          file: Projects/SQL/airbnb_profitability.qmd
+        - text: "---"
+        - text: "Neighborhood Revenue Analysis"
+          file: Projects/SQL/neighborhood_revenue.qmd
+        - text: "---"
+
+    - title: "Python Projects"
+      contents:
+        - text: "Student Housing Recommender"
+          file: Projects/Python/student_housing_recommender.qmd
+        - text: "---"
+        - text: "Sales Forecasting"
+          file: Projects/Python/sales_forecasting.qmd
+        - text: "---"
+
+    - title: "Power BI Projects"
+      contents:
+        - text: "Financial Dashboard"
+          file: Projects/PowerBI/financial_dashboard.qmd
+        - text: "---"
+        - text: "Survey Dashboard"
+          file: Projects/PowerBI/survey_dashboard.qmd
+        - text: "---"
+
+    - title: "Excel Projects"
+      contents:
+        - text: "Budget vs Actual Report"
+          file: Projects/Excel/budget_vs_actual.qmd
+        - text: "---"
+        - text: "Sales Summary Dashboard"
+          file: Projects/Excel/sales_summary.qmd
+        - text: "---"
+
+format:  
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
     toc: true
