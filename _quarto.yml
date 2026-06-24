@@ -10,7 +10,7 @@ project:
 
 website:
   title: "Diego Chuquimia - Data Science Portfolio"
-  favicon: Images/favicon.png
+  favicon: images/favicon.png
   back-to-top-navigation: true
   page-footer: 
     border: true
