@@ -1,31 +1,62 @@
-project:
+project: 
   type: website
   output-dir: docs
 
 website:
-  title: "Diego Chuquimia Portfolio"
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - href: index.qmd
-        text: Home
-      - href: resume.qmd
-        text: My Resume
-      - section: "Projects"
-        contents:
-          - href: r-projects.qmd
-            text: R Projects
-          - href: sql-projects.qmd
-            text: SQL Projects
-          - href: python-projects.qmd
-            text: Python Projects
-          - href: powerbi-projects.qmd
-            text: Power BI Projects
-          - href: excel-projects.qmd
-            text: Excel Projects
+  title: "Diego Chuquimia - Data Science Portfolio"
+  favicon: Images/favicon.png
+  back-to-top-navigation: true
+  site-url: https://chuquimiadiego.github.io/
+  repo-url: https://github.com/chuquimiadiego/chuquimiadiego.github.io
+  issue-url: https://github.com/chuquimiadiego/chuquimiadiego.github.io/issues/new
+  repo-actions: [issue]
 
-format:
+  page-footer: 
+    border: true
+    left: "Diego Chuquimia 2026©"
+    right: 
+      - icon: linkedin
+        href: https://www.linkedin.com/in/diegoach
+
+  navbar:
+    background: primary
+    search: true   
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "My Resume"
+        file: resume.qmd
+      - text: "Projects"
+        file: projects.qmd
+
+  sidebar:
+    - title: "Portfolio Projects"
+      style: "docked"
+      background: light
+      contents:
+        - text: "Projects Overview"
+          file: projects.qmd
+        - text: "---"
+        - text: "R Projects"
+          file: Projects/r-projects.qmd
+        - text: "---"
+        - text: "SQL Projects"
+          file: Projects/sql-projects.qmd
+        - text: "---"
+        - text: "Python Projects"
+          file: Projects/python-projects.qmd
+        - text: "---"
+        - text: "Power BI Projects"
+          file: Projects/powerbi-projects.qmd
+        - text: "---"
+        - text: "Excel Projects"
+          file: Projects/excel-projects.qmd
+
+format:  
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
     toc: true
