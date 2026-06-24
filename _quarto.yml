@@ -8,28 +8,20 @@ project:
   type: website
   output-dir: docs
 
-resources:
-  - Data/**
-  - Documents/**
-
 website:
   title: "Diego Chuquimia - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  site-url: https://chuquimiadiego.github.io/
-  repo-url: https://github.com/chuquimiadiego/chuquimiadiego.github.io
-  issue-url: https://github.com/chuquimiadiego/chuquimiadiego.github.io/issues/new
-  repo-actions: [issue]
-
+  site-url: "https://diegoch2018.github.io/Analyst-Portfolio/"
+  repo-url: "https://github.com/diegoch2018/Analyst-Portfolio/"
   page-footer: 
     border: true
     left: "Diego Chuquimia 2026©"
     right: 
       - icon: github
-        href: https://github.com/chuquimiadiego
+        href: "https://github.com/diegoch2018"
       - icon: linkedin
-        href: https://www.linkedin.com/in/diegoach
-
+        href: "https://www.linkedin.com/in/diegoach"
   navbar:
     background: primary
     search: true   
