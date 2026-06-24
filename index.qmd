@@ -1,9 +1,6 @@
 ---
-<<<<<<< HEAD
+
 title: "Diego Chuquimia | Economics minor in Data Science Portfolio"
-=======
-title: "Diego Chuquimia: Data Science Portfolio"
->>>>>>> 41d428b3a4627b9ba1a25cb7902bd82dbdaa4a07
 subtitle: "Using R, SQL, Python, Power BI, and Excel to analyze data and build business insights"
 ---
 

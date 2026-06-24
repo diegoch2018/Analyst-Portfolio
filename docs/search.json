@@ -2,39 +2,49 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Diego Chuquimia",
+    "title": "Diego Chuquimia - Data Science Portfolio",
     "section": "",
-    "text": "Welcome to my portfolio. I am an Economics student with experience in R, SQL, Python, Power BI, and Excel.",
+    "text": "title: “Diego Chuquimia | Economics minor in Data Science Portfolio” subtitle: “Using R, SQL, Python, Power BI, and Excel to analyze data and build business insights” —",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "index.html#data-analytics-portfolio",
-    "href": "index.html#data-analytics-portfolio",
-    "title": "Diego Chuquimia",
-    "section": "",
-    "text": "Welcome to my portfolio. I am an Economics student with experience in R, SQL, Python, Power BI, and Excel.",
+    "objectID": "index.html#how-to-navigate-this-portfolio",
+    "href": "index.html#how-to-navigate-this-portfolio",
+    "title": "Diego Chuquimia - Data Science Portfolio",
+    "section": "How to navigate this portfolio?",
+    "text": "How to navigate this portfolio?\nUse the top menu to navigate to my resume, project sections, and specific work samples. Each section highlights projects created with different tools, including R, SQL, Python, Power BI, and Excel.",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Diego Chuquimia",
-    "section": "About Me",
-    "text": "About Me\nI am interested in financial analysis, business analytics, and data visualization.",
+    "objectID": "index.html#my-resume",
+    "href": "index.html#my-resume",
+    "title": "Diego Chuquimia - Data Science Portfolio",
+    "section": "My Resume",
+    "text": "My Resume\nThis section contains my education, experience, technical skills, and professional background.",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Diego Chuquimia",
-    "section": "Featured Projects",
-    "text": "Featured Projects\n\nR: Apartment Price Analysis\nSQL: Airbnb Profitability Analysis\nPython: Student Housing Recommender\nPower BI: Financial Dashboard\nExcel: Budget vs Actual Report",
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Diego Chuquimia - Data Science Portfolio",
+    "section": "Projects",
+    "text": "Projects\nThis section gives an overview of my data analytics, finance, and business intelligence projects.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#project-areas",
+    "href": "index.html#project-areas",
+    "title": "Diego Chuquimia - Data Science Portfolio",
+    "section": "Project Areas",
+    "text": "Project Areas\n\nR Projects\nProjects using R, tidyverse, ggplot2, Quarto, maps, and statistical analysis.\n\n\nSQL Projects\nProjects using SQL to clean, summarize, and analyze business and financial data.\n\n\nPython Projects\nProjects using Python, pandas, NumPy, and data analysis workflows.\n\n\nPower BI Projects\nDashboards and reports built with Power BI.\n\n\nExcel Projects\nExcel projects using formulas, PivotTables, dashboards, and financial reports.",
     "crumbs": [
       "Home"
     ]
