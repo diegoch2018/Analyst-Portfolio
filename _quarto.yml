@@ -3,15 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "Diego Chuquimia - Portfolio"
-  navbar:
-    left:
+  title: "Diego Chuquimia Portfolio"
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
       - href: index.qmd
         text: Home
       - href: resume.qmd
         text: My Resume
-      - text: Projects
-        menu:
+      - section: "Projects"
+        contents:
           - href: r-projects.qmd
             text: R Projects
           - href: sql-projects.qmd

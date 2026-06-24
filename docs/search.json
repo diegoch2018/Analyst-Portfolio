@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Diego Chuquimia",
+    "section": "",
+    "text": "Welcome to my portfolio. I am an Economics student with experience in R, SQL, Python, Power BI, and Excel.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#data-analytics-portfolio",
+    "href": "index.html#data-analytics-portfolio",
+    "title": "Diego Chuquimia",
+    "section": "",
+    "text": "Welcome to my portfolio. I am an Economics student with experience in R, SQL, Python, Power BI, and Excel.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Diego Chuquimia",
+    "section": "About Me",
+    "text": "About Me\nI am interested in financial analysis, business analytics, and data visualization.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Diego Chuquimia",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\nR: Apartment Price Analysis\nSQL: Airbnb Profitability Analysis\nPython: Student Housing Recommender\nPower BI: Financial Dashboard\nExcel: Budget vs Actual Report",
+    "crumbs": [
+      "Home"
+    ]
+  }
+]
