@@ -12,16 +12,12 @@ website:
   title: "Diego Chuquimia - Data Science Portfolio"
   favicon: Images/favicon.png
   back-to-top-navigation: true
-  site-url: "https://diegoch2018.github.io/Analyst-Portfolio/"
-  repo-url: "https://github.com/diegoch2018/Analyst-Portfolio/"
   page-footer: 
     border: true
     left: "Diego Chuquimia 2026©"
     right: 
       - icon: github
-        href: "https://github.com/diegoch2018"
       - icon: linkedin
-        href: "https://www.linkedin.com/in/diegoach"
   navbar:
     background: primary
     search: true   
@@ -132,9 +128,3 @@ format:
       light: flatly
       dark: darkly
     css: styles.css
-<<<<<<< HEAD
-    toc: true
-=======
-    toc: true
-    toc: true
->>>>>>> 41d428b3a4627b9ba1a25cb7902bd82dbdaa4a07
